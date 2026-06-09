@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentis</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<header class="header">
+  <div class="logo">
+    <img src="imagens/logo.png">
+  </div>
+
+  <nav class="menu">
+    <a href="#hero">Home</a>
+    <a href="#sobre">Sobre nós</a>
+    <a href="#demo">Demo</a>
+    <a href="#faq">FAQ</a>
+    <a href="#time">Nosso time</a>
+    <div class="cadastro"><a href="login.html" class="btn">Cadastre-se</a></div>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="imagens/fundo.png" class="bg">
+
+  <div class="overlay">
+    <h1>Tecnologia. Bem-Estar. Futuro.</h1>
+    <p>A IA que revolucionará a saúde mental no mercado de trabalho.</p>
+  </div>
+
+  <div class="setinhas">
+    <a href="#sobre">↓ saiba mais ↓</a>
+  </div>
+</section>
+
+<section id="sobre" class="sobre">
+  <img src="imagens/work.png" alt="trabalho">
+
+  <div class="texto">
+    <h2>Sobre nós</h2>
+    <p>
+      A Mentis acredita que saúde mental no trabalho não é um luxo — é essencial.
+      Criamos soluções inteligentes para transformar cuidado em estratégia.
+    </p>
+  </div>
+</section>
+
+<section class="oq">
+  <div>
+    <h2>O que fazemos</h2>
+    <p>O propósito da Mentis é transformar a forma que a saúde mental é retratada pelo mercado de trabalho, reduzir o estigma e promover um mundo corporativo mais aberto e preventivo com o bem-estar psicológico. <br>Tornamos isso realidade através de um questionário trimestral via online: suas respostas são enviadas e processadas pela nossa IA, que identifica sintomas, pré-disposições, assim como problemas já existentes, e os resultados serão enviados para o RH e o EHS da sua empresa. Caso preciso, a Mentis possui seu próprio banco de profissionais da saúde mental, de modo que economize seu tempo e automatize a procura para você.</p>
+  </div>
+
+  <img src="imagens/trabalho2.png">
+</section>
+
+<section id="demo" class="demo">
+  <h2>Demo</h2>
+  <p>Lorem ipsum dolor sit amet...</p>
+  <div class="botaodemo"><a class="btn" href="teste.html">faça o teste!</a></div>
+</section>
+
+<section id="faq" class="faq">
+  <h2>FAQ</h2>
+
+  <div class="carrossel">
+    <button onclick="prevSlide()">❮</button>
+
+    <div class="slide active">
+      <h3>Como a Mentis te ajuda?</h3>
+      <p>A plataforma Mentis é uma ferramenta essencial para auxiliar sua empresa a manter um ambiente de trabalho saudável e humanizado. Ao garantir o bem-estar mental e emocional dos funcionários, não só promovemos uma equipe mais produtiva, mas também contribuímos para o aumento da rentabilidade e o cumprimento de metas organizacionais. O cuidado com a saúde mental reflete diretamente em melhores resultados para a empresa.</p>
+    </div>
+
+    <div class="slide">
+      <h3>Qual é o papel da IA na nossa missão?</h3>
+      <p>As respostas fornecidas por meio do formulário serão diretamente encaminhadas para nossa inteligência artificial (IA). Essa IA é especialmente treinada para analisar os dados coletados nos questionários, com o objetivo de criar um banco de dados robusto que armazena respostas anteriores. Isso permite que a IA identifique padrões e detecte potenciais indícios de danos à saúde mental dos colaboradores, de forma proativa e contínua.</p>
+    </div>
+
+    <div class="slide">
+      <h3>Quem pode acessar as respostas fornecidas através do questionário?</h3>
+      <p>Somente a IA tem acesso às respostas completas. Esses dados são completamente anônimos, garantindo total privacidade aos respondentes. Após a análise detalhada realizada pela IA, apenas os resultados consolidados são compartilhados com os departamentos de Recursos Humanos (RH) e Saúde, Segurança e Meio Ambiente (EHS). Caso sejam identificados sinais de possíveis danos à saúde mental, o RH e/ou o EHS serão informados para que a empresa possa tomar as medidas adequadas, assegurando o cuidado com seus colaboradores.</p>
+    </div>
+
+    <div class="slide">
+      <h3>Nós, da Mentis, podemos acessar as suas respostas?</h3>
+      <p>De forma alguma! Nós, da Mentis, não temos acesso às respostas individuais. Nosso compromisso é criar um ambiente onde os respondentes se sintam completamente à vontade.</p>
+    </div>
+
+    <button onclick="nextSlide()">❯</button>
+  </div>
+</section>
+
+<section id="time" class="time">
+  <h2>Nosso time</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="foto"></div>
+      <h3>função</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed euismod massa, ac tincidunt erat. Donec ut metus rhoncus, luctus dolor non, malesuada justo.</p>
+      <div class="nome">nome sobrenome</div>
+    </div>
+
+    <div class="card">
+      <div class="foto"></div>
+      <h3>função</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed euismod massa, ac tincidunt erat. Donec ut metus rhoncus, luctus dolor non, malesuada justo.</p>
+      <div class="nome">nome sobrenome</div>
+    </div>
+
+    <div class="card">
+      <div class="foto"></div>
+      <h3>função</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed euismod massa, ac tincidunt erat. Donec ut metus rhoncus, luctus dolor non, malesuada justo.</p>
+      <div class="nome">nome sobrenome</div>
+    </div>
+
+    <div class="card">
+      <div class="foto"></div>
+      <h3>função</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed euismod massa, ac tincidunt erat. Donec ut metus rhoncus, luctus dolor non, malesuada justo.</p>
+      <div class="nome">nome sobrenome</div>
+    </div>
+
+    <div class="card">
+      <div class="foto"></div>
+      <h3>função</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed euismod massa, ac tincidunt erat. Donec ut metus rhoncus, luctus dolor non, malesuada justo.</p>
+      <div class="nome">nome sobrenome</div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Alguma sugestão? Dúvidas? Críticas? Fale conosco!</p>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiIE0wrJNuVGTy-p5T9LtXMbHXtRA4h7XbXsh5T3tDMdDwOQ/viewform?usp=sharing&ouid=109541774771544997470">Preencha nosso formulário!</a>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
